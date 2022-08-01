@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDEAE67D289861B00010B396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAE67C289861B00010B396 /* AppDelegate.swift */; };
+		BDEAE67F289861B00010B396 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAE67E289861B00010B396 /* SceneDelegate.swift */; };
+		BDEAE681289861B00010B396 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAE680289861B00010B396 /* ViewController.swift */; };
+		BDEAE684289861B00010B396 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDEAE682289861B00010B396 /* Main.storyboard */; };
+		BDEAE687289861B00010B396 /* Mealon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDEAE685289861B00010B396 /* Mealon.xcdatamodeld */; };
+		BDEAE689289861B20010B396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEAE688289861B20010B396 /* Assets.xcassets */; };
+		BDEAE68C289861B20010B396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDEAE68A289861B20010B396 /* LaunchScreen.storyboard */; };
+		BDEAE697289861B20010B396 /* MealonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAE696289861B20010B396 /* MealonTests.swift */; };
+		BDEAE6A1289861B20010B396 /* MealonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAE6A0289861B20010B396 /* MealonUITests.swift */; };
+		BDEAE6A3289861B20010B396 /* MealonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAE6A2289861B20010B396 /* MealonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDEAE693289861B20010B396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDEAE671289861B00010B396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDEAE678289861B00010B396;
+			remoteInfo = Mealon;
+		};
+		BDEAE69D289861B20010B396 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDEAE671289861B00010B396 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDEAE678289861B00010B396;
+			remoteInfo = Mealon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDEAE679289861B00010B396 /* Mealon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mealon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEAE67C289861B00010B396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDEAE67E289861B00010B396 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDEAE680289861B00010B396 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDEAE683289861B00010B396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDEAE686289861B00010B396 /* Mealon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mealon.xcdatamodel; sourceTree = "<group>"; };
+		BDEAE688289861B20010B396 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDEAE68B289861B20010B396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDEAE68D289861B20010B396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDEAE692289861B20010B396 /* MealonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEAE696289861B20010B396 /* MealonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealonTests.swift; sourceTree = "<group>"; };
+		BDEAE69C289861B20010B396 /* MealonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEAE6A0289861B20010B396 /* MealonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealonUITests.swift; sourceTree = "<group>"; };
+		BDEAE6A2289861B20010B396 /* MealonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDEAE676289861B00010B396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEAE68F289861B20010B396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEAE699289861B20010B396 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDEAE670289861B00010B396 = {
+			isa = PBXGroup;
+			children = (
+				BDEAE67B289861B00010B396 /* Mealon */,
+				BDEAE695289861B20010B396 /* MealonTests */,
+				BDEAE69F289861B20010B396 /* MealonUITests */,
+				BDEAE67A289861B00010B396 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDEAE67A289861B00010B396 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDEAE679289861B00010B396 /* Mealon.app */,
+				BDEAE692289861B20010B396 /* MealonTests.xctest */,
+				BDEAE69C289861B20010B396 /* MealonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDEAE67B289861B00010B396 /* Mealon */ = {
+			isa = PBXGroup;
+			children = (
+				BDEAE67C289861B00010B396 /* AppDelegate.swift */,
+				BDEAE67E289861B00010B396 /* SceneDelegate.swift */,
+				BDEAE680289861B00010B396 /* ViewController.swift */,
+				BDEAE682289861B00010B396 /* Main.storyboard */,
+				BDEAE688289861B20010B396 /* Assets.xcassets */,
+				BDEAE68A289861B20010B396 /* LaunchScreen.storyboard */,
+				BDEAE68D289861B20010B396 /* Info.plist */,
+				BDEAE685289861B00010B396 /* Mealon.xcdatamodeld */,
+			);
+			path = Mealon;
+			sourceTree = "<group>";
+		};
+		BDEAE695289861B20010B396 /* MealonTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDEAE696289861B20010B396 /* MealonTests.swift */,
+			);
+			path = MealonTests;
+			sourceTree = "<group>";
+		};
+		BDEAE69F289861B20010B396 /* MealonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDEAE6A0289861B20010B396 /* MealonUITests.swift */,
+				BDEAE6A2289861B20010B396 /* MealonUITestsLaunchTests.swift */,
+			);
+			path = MealonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDEAE678289861B00010B396 /* Mealon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEAE6A6289861B20010B396 /* Build configuration list for PBXNativeTarget "Mealon" */;
+			buildPhases = (
+				BDEAE675289861B00010B396 /* Sources */,
+				BDEAE676289861B00010B396 /* Frameworks */,
+				BDEAE677289861B00010B396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mealon;
+			productName = Mealon;
+			productReference = BDEAE679289861B00010B396 /* Mealon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDEAE691289861B20010B396 /* MealonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEAE6A9289861B20010B396 /* Build configuration list for PBXNativeTarget "MealonTests" */;
+			buildPhases = (
+				BDEAE68E289861B20010B396 /* Sources */,
+				BDEAE68F289861B20010B396 /* Frameworks */,
+				BDEAE690289861B20010B396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDEAE694289861B20010B396 /* PBXTargetDependency */,
+			);
+			name = MealonTests;
+			productName = MealonTests;
+			productReference = BDEAE692289861B20010B396 /* MealonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDEAE69B289861B20010B396 /* MealonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEAE6AC289861B20010B396 /* Build configuration list for PBXNativeTarget "MealonUITests" */;
+			buildPhases = (
+				BDEAE698289861B20010B396 /* Sources */,
+				BDEAE699289861B20010B396 /* Frameworks */,
+				BDEAE69A289861B20010B396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDEAE69E289861B20010B396 /* PBXTargetDependency */,
+			);
+			name = MealonUITests;
+			productName = MealonUITests;
+			productReference = BDEAE69C289861B20010B396 /* MealonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDEAE671289861B00010B396 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BDEAE678289861B00010B396 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					BDEAE691289861B20010B396 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = BDEAE678289861B00010B396;
+					};
+					BDEAE69B289861B20010B396 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = BDEAE678289861B00010B396;
+					};
+				};
+			};
+			buildConfigurationList = BDEAE674289861B00010B396 /* Build configuration list for PBXProject "Mealon" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDEAE670289861B00010B396;
+			productRefGroup = BDEAE67A289861B00010B396 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDEAE678289861B00010B396 /* Mealon */,
+				BDEAE691289861B20010B396 /* MealonTests */,
+				BDEAE69B289861B20010B396 /* MealonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDEAE677289861B00010B396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEAE68C289861B20010B396 /* LaunchScreen.storyboard in Resources */,
+				BDEAE689289861B20010B396 /* Assets.xcassets in Resources */,
+				BDEAE684289861B00010B396 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEAE690289861B20010B396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEAE69A289861B20010B396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDEAE675289861B00010B396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEAE681289861B00010B396 /* ViewController.swift in Sources */,
+				BDEAE67D289861B00010B396 /* AppDelegate.swift in Sources */,
+				BDEAE67F289861B00010B396 /* SceneDelegate.swift in Sources */,
+				BDEAE687289861B00010B396 /* Mealon.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEAE68E289861B20010B396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEAE697289861B20010B396 /* MealonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEAE698289861B20010B396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEAE6A3289861B20010B396 /* MealonUITestsLaunchTests.swift in Sources */,
+				BDEAE6A1289861B20010B396 /* MealonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDEAE694289861B20010B396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDEAE678289861B00010B396 /* Mealon */;
+			targetProxy = BDEAE693289861B20010B396 /* PBXContainerItemProxy */;
+		};
+		BDEAE69E289861B20010B396 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDEAE678289861B00010B396 /* Mealon */;
+			targetProxy = BDEAE69D289861B20010B396 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDEAE682289861B00010B396 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDEAE683289861B00010B396 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDEAE68A289861B20010B396 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDEAE68B289861B20010B396 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDEAE6A4289861B20010B396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDEAE6A5289861B20010B396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDEAE6A7289861B20010B396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mealon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.Mealon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDEAE6A8289861B20010B396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mealon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.Mealon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDEAE6AA289861B20010B396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.MealonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mealon.app/Mealon";
+			};
+			name = Debug;
+		};
+		BDEAE6AB289861B20010B396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.MealonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mealon.app/Mealon";
+			};
+			name = Release;
+		};
+		BDEAE6AD289861B20010B396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.MealonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mealon;
+			};
+			name = Debug;
+		};
+		BDEAE6AE289861B20010B396 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.MealonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mealon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDEAE674289861B00010B396 /* Build configuration list for PBXProject "Mealon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEAE6A4289861B20010B396 /* Debug */,
+				BDEAE6A5289861B20010B396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEAE6A6289861B20010B396 /* Build configuration list for PBXNativeTarget "Mealon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEAE6A7289861B20010B396 /* Debug */,
+				BDEAE6A8289861B20010B396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEAE6A9289861B20010B396 /* Build configuration list for PBXNativeTarget "MealonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEAE6AA289861B20010B396 /* Debug */,
+				BDEAE6AB289861B20010B396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEAE6AC289861B20010B396 /* Build configuration list for PBXNativeTarget "MealonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEAE6AD289861B20010B396 /* Debug */,
+				BDEAE6AE289861B20010B396 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDEAE685289861B00010B396 /* Mealon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDEAE686289861B00010B396 /* Mealon.xcdatamodel */,
+			);
+			currentVersion = BDEAE686289861B00010B396 /* Mealon.xcdatamodel */;
+			path = Mealon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDEAE671289861B00010B396 /* Project object */;
+}
