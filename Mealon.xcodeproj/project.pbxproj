@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD3E10D8289990A100270DFC /* AddToList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E10D7289990A100270DFC /* AddToList.swift */; };
+		BD3E10DC289992E300270DFC /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E10DB289992E300270DFC /* ToDo.swift */; };
+		BD3E10DE2899943D00270DFC /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E10DD2899943D00270DFC /* HomePageViewController.swift */; };
+		BD9988EE28999931006DF23C /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9988ED28999931006DF23C /* HomePage.swift */; };
 		BDEAE67D289861B00010B396 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAE67C289861B00010B396 /* AppDelegate.swift */; };
 		BDEAE67F289861B00010B396 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAE67E289861B00010B396 /* SceneDelegate.swift */; };
 		BDEAE681289861B00010B396 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEAE680289861B00010B396 /* ViewController.swift */; };
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD3E10D7289990A100270DFC /* AddToList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToList.swift; sourceTree = "<group>"; };
+		BD3E10DB289992E300270DFC /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		BD3E10DD2899943D00270DFC /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		BD9988ED28999931006DF23C /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		BDEAE679289861B00010B396 /* Mealon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mealon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEAE67C289861B00010B396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDEAE67E289861B00010B396 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +117,10 @@
 				BDEAE68A289861B20010B396 /* LaunchScreen.storyboard */,
 				BDEAE68D289861B20010B396 /* Info.plist */,
 				BDEAE685289861B00010B396 /* Mealon.xcdatamodeld */,
+				BD3E10D7289990A100270DFC /* AddToList.swift */,
+				BD3E10DB289992E300270DFC /* ToDo.swift */,
+				BD3E10DD2899943D00270DFC /* HomePageViewController.swift */,
+				BD9988ED28999931006DF23C /* HomePage.swift */,
 			);
 			path = Mealon;
 			sourceTree = "<group>";
@@ -262,9 +274,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDEAE681289861B00010B396 /* ViewController.swift in Sources */,
+				BD3E10DE2899943D00270DFC /* HomePageViewController.swift in Sources */,
 				BDEAE67D289861B00010B396 /* AppDelegate.swift in Sources */,
 				BDEAE67F289861B00010B396 /* SceneDelegate.swift in Sources */,
+				BD3E10DC289992E300270DFC /* ToDo.swift in Sources */,
 				BDEAE687289861B00010B396 /* Mealon.xcdatamodeld in Sources */,
+				BD3E10D8289990A100270DFC /* AddToList.swift in Sources */,
+				BD9988EE28999931006DF23C /* HomePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
