@@ -8,7 +8,8 @@
 import UIKit
 
 class AddToList: UIViewController {
-
+var previousVC = MealsTableViewController()
+    
     @IBOutlet weak var mealName: UITextField!
     
     @IBOutlet weak var ingNeeded: UITextField!
@@ -16,6 +17,11 @@ class AddToList: UIViewController {
     
     @IBOutlet weak var date: UIDatePicker!
     
+    @IBOutlet weak var breakfastSwitch: UISwitch!
+    
+    @IBOutlet weak var lunchSwitch: UISwitch!
+    
+    @IBOutlet weak var dinnerSwitch: UISwitch!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +30,17 @@ class AddToList: UIViewController {
     }
     
     @IBAction func addToList(_ sender: Any) {
-        
+        let meal = Meal()
+        if let mealName = mealName.text {
+            meal.name = mealName
+            meal.breakfast = breakfastSwitch.isOn
+            meal.lunch = lunchSwitch.isOn
+            meal.dinner = dinnerSwitch.isOn
+        }
+        previousVC.meals.append(meal)
+        previousVC.tableView.reloadData()
+        navigationController?.popViewController(animated: true)
+
     }
     //comment 
     
