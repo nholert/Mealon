@@ -20,7 +20,7 @@ class MealsTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         
-        meals = getMeals()
+//        meals = getMeals()
     }
     
     func getMeals() -> [Meal] {
@@ -39,6 +39,10 @@ class MealsTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return meals.count
     }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
+    }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
@@ -47,9 +51,27 @@ class MealsTableViewController: UITableViewController {
         
         // Configure the cell...
         
-        
-        cell.textLabel?.text = meal.name
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "EEEE, MMM d"
 
+        let formattedDate = dateFormatter.string(from: meal.date)
+        
+        
+        if meal.breakfast {
+            cell.textLabel?.text = "🍳" + " \(formattedDate): \(meal.name) (\(meal.ingredients))"
+        }
+        if meal.lunch == true {
+            cell.textLabel?.text = "🥪" + " \(formattedDate): \(meal.name) (\(meal.ingredients))"
+        }
+        if meal.dinner == true  {
+            cell.textLabel?.text = "🥘" + " \(formattedDate): \(meal.name) (\(meal.ingredients))"
+        }
+        
+       // cell.textLabel?.text = "\(formattedDate): \(meal.name) (\(meal.ingredients))"
+        
+        cell.textLabel?.numberOfLines = 0
+    
+        
         return cell
     }
 
